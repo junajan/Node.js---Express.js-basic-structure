@@ -1,0 +1,33 @@
+{
+    "name": "My_project",
+    "description": "",
+    "version": "0.0.1",
+    "main": "./app.js",
+    "private": true,
+    "scripts": {
+      "start": "nodemon app.js"
+    },
+    "dependencies": {
+      "express": "latest",
+      "body-parser": "latest",
+      "ejs": "latest",
+      "ejs-locals": "~1.0.2",
+      "express-ejs-layouts": "~0.3.1",
+      "connect-session-file": "latest",
+      "cookie-parser": "latest",
+      "underscore": "latest",
+      "express-logger": "latest",
+      "express-session": "latest",
+      "reload": "latest"
+    },
+    "devDependencies": {
+      "nodemon": "*"
+    },
+    "author": {
+      "name": "developer",
+      "email": ""
+    },
+    "bugs": {
+      "web": "null"
+    }
+}
